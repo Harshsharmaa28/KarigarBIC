@@ -1,7 +1,11 @@
 {
-  "extends": "next",
+  "extends": "next/core-web-vitals",
   "rules": {
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
+    // Add or modify ESLint rules here
+    "jsx-a11y/alt-text": "off", // Example: Disable a specific rule
+    "@next/next/no-img-element": "off",// Example: Set another rule to "warn" level
+    "react/no-unescaped-entities": "off"
+
   }
 }
+

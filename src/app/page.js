@@ -20,15 +20,13 @@ import Customer from '@/components/customer';
 import Chat from '@/components/chat';
 export default function Home() {
   return (
-    <main className=' vsm:max-w-screen-md:w-screen'>
-      <div className='vsm:max-w-screen-md:w-screen overflow-x-hidden'>
-        <Navbar></Navbar>
+    <main className=''>
+      <Navbar></Navbar>
         <Homepage></Homepage>
         <Topservice></Topservice>
         <Page3></Page3>
         <Faqs></Faqs>
         <Customer></Customer>
-      </div>
     </main>
   )
 }

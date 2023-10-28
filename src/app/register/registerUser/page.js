@@ -111,7 +111,7 @@ export default function LoginWorker(){
                                 </div>
 
                                 <div className={'h-auto mx-auto my-2 md:m-7 w-[90%] text-sl text-center text-semibold text-white '}>
-                                    <input type={'submit'} className=" w-[80%] hover:cursor-pointer rounded px-3 py-2 m-1 border-b-4 border-l-2 shadow-lg bg-blue-800 border-blue-900 text-white  " value={'Register'}></input>
+                                    <input type={'submit'} className=" w-[80%] hover:cursor-pointer rounded px-3 py-2 m-1 border-b-4 border-l-2 shadow-lg bg-blue-700 hover:bg-blue-950 border-blue-900 text-white  " value={'Register'}></input>
 
                                 </div>
 

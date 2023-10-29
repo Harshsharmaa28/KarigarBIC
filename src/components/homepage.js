@@ -15,10 +15,10 @@ export default function Homepage() {
             </div>
             <div className="vsm:max-sm:hidden w-[600px]  absolute ml-[50vw] mt-[17vh]">
                 <div>
-                    <img src="/images/painterimg.png" className="w-[12rem] h-[12rem] bg-contain rounded-tr-[60px] rounded-bl-[60px] ml-[23rem] shadow-right-bottom" />
+                    <img src="/images/painterimg.png" className="sm:max-lg:hidden w-[12rem] h-[12rem] bg-contain rounded-tr-[60px] rounded-bl-[60px] ml-[23rem] shadow-right-bottom" />
                 </div>
                 <div>
-                    <img src="/images/tailor.png" className="w-[12rem] h-[12rem] bg-contain  rounded-tr-[60px] rounded-bl-[60px] ml-[11rem] shadow-right-bottom" />
+                    <img src="/images/tailor.png" className="sm:max-lg:mt-[17vh] w-[12rem] h-[12rem] bg-contain  rounded-tr-[60px] rounded-bl-[60px] ml-[11rem] shadow-right-bottom" />
                 </div>
             </div>
         </div>

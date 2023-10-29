@@ -10,7 +10,7 @@ export default function Card() {
                
             </Navbar>
             {/* <div> jai mata di</div> */}
-            <div className="flex flex-wrap gap-10 justify-between mx-20 mt-5">
+            <div className="vsm:max-sm: flex flex-wrap gap-10 justify-center items-center mt-5">
                 <div>
                     <div className="w-[300px] rounded-md border border-black bg-white">
                         <Link href={'/account'}>
@@ -20,7 +20,7 @@ export default function Card() {
                             className="h-[200px] w-full rounded-md object-cover"
                         /></Link>
                         <div className="p-4 ">
-                            <h1 className="text-lg font-semibold">Anjali</h1>
+                            <h1 className="text-lg font-semibold">Anjali Sharma</h1>
                             <p className="mt-3 text-sm text-gray-600">
                                 Having more than 3 years of experience and have stiched more than 5000 orders.
                             </p>
@@ -51,7 +51,7 @@ export default function Card() {
                             className="h-[200px] w-full rounded-md object-cover border"
                         />
                         <div className="p-4 ">
-                            <h1 className="text-lg font-semibold">Shikha</h1>
+                            <h1 className="text-lg font-semibold">Shikha Singh</h1>
                             <p className="mt-3 text-sm text-gray-600">
                                 Having more than 3 years of experience and have stiched more than 5000 orders.
                             </p>
@@ -81,7 +81,7 @@ export default function Card() {
                             className="h-[200px] w-full rounded-md object-cover"
                         />
                         <div className="p-4">
-                            <h1 className="text-lg font-semibold">Priya</h1>
+                            <h1 className="text-lg font-semibold">Priya Prajapati</h1>
                             <p className="mt-3 text-sm text-gray-600">
                                 Having more than 3 years of experience and have stiched more than 5000 orders.
                             </p>
@@ -111,7 +111,7 @@ export default function Card() {
                             className="h-[200px] w-full rounded-md object-cover"
                         />
                         <div className="p-4">
-                            <h1 className="text-lg font-semibold">Maithlee</h1>
+                            <h1 className="text-lg font-semibold">Rasmi Kumari</h1>
                             <p className="mt-3 text-sm text-gray-600">
                                 Having more than 3 years of experience and have stiched more than 5000 orders.
                             </p>

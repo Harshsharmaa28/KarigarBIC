@@ -6,7 +6,7 @@ export default function Card() {
     return (
         <div className=' '>
             <Navbar>p</Navbar>
-            <div className="flex flex-wrap gap-10 justify-between mx-20 mt-5">
+            <div className="flex flex-wrap gap-10 justify-center items-center mt-5">
                 <div>
                     <div className="w-[300px] rounded-md border border-black bg-white">
                         <Link href={'/account'}>

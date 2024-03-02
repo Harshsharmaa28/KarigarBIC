@@ -84,12 +84,12 @@ export default function Login(){
         <>
             <ToastContainer/>
 
-            <div >
+            <div className=" overflow-hidden">
 
                 <div className={'w-[100vw] h-[100vh] flex-col justify-center items-between bg-[url("/images/registerUser.jpg")] bg-cover md:bg-none '}>
                     <p className={'ml-6 py-2 text-2xl font-serif '}>KARIGAR</p>
 
-                    <div className={'w-[80%] sm:w-[60%] h-[90%] md:h-[95%] md:w-[75%] lg:h-[80%] lg:w-[60%] mx-auto mt-[3rem] flex-col md:flex md:flex-row items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] border border-solid  rounded-2xl '}>
+                    <div className={'w-[80%] sm:w-[60%] h-[80%] md:h-[95%] md:w-[75%] lg:h-[80%] lg:w-[60%] mx-auto mt-[3rem] flex-col md:flex md:flex-row items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] border border-solid  rounded-2xl '}>
 
                         <div className={' w-[100%] md:w-[50%] h-[100%] bg-white border md:border-0 border-solid rounded-2xl '}>
                             <p className={'w-[100%] text-2xl font-black text-center relative top-[3rem]'}>Sign In</p>

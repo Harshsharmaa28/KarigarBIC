@@ -1,9 +1,12 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { Poppins } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
+
 const poppins = Poppins({
   weight: '400',
-  subsets: ['latin'],});
+  subsets: ['latin'],
+});
 
 
 export const metadata = {
@@ -14,7 +17,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
